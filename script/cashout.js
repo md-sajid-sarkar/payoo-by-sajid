@@ -30,7 +30,7 @@ document.getElementById("cashout-btn").addEventListener("click", function () {
     console.log("New balance is: ", newBalance);
     //5- Get the pin and verify
     const cashOutPin = document.getElementById("cashout-pin").value;
-    if (cashOutPin == "4423") {
+    if (cashOutPin == "1234") {
         //5-1 true:: show an alert > set Balance
         alert("Cashout Successful!");
         const newBalance = Number(balance) - Number(cashOutAmount);

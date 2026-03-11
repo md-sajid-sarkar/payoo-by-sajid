@@ -23,7 +23,7 @@ document.getElementById("add-meney-btn").addEventListener("click", function () {
     console.log(newBalance);
 
     const pin = getValueFromInput("add-money-pin");
-    if (pin == "4423") {
+    if (pin == "1234") {
         // alert("Add money Successful!");
         alert(`Add money from ${bankAccount} at ${new Date()}`);
         setBalance(newBalance);
